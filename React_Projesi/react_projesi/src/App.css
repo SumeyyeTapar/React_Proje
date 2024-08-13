@@ -1,0 +1,71 @@
+.movie-app .row2{
+    margin-top: 40px;
+     display: flex;
+     flex-wrap: wrap;
+     /* sığmayan resimleri aşağıya aktarmamamızı sağlar responsive için de önemli */
+     justify-content: center;
+     align-items: center; 
+     
+  }
+  .movie_poster{
+      /* width: 17%; */
+     justify-content: center;
+     margin: 10px;
+     margin-bottom: 50px;
+  }
+  .movie_poster img{
+      width: 200px;
+      height: 200px;
+      cursor: pointer; 
+      object-fit: fill;
+      border-radius: 10px; 
+   }
+   /* SEARCH */
+   .movie-app .row1{
+     align-items: center;
+     display: flex;
+     height: 100px;
+     justify-content: center;
+     align-items: center;
+  }
+  
+  .searchBox {
+         width: 55%;
+         display: flex;
+        
+  }
+  .searchBox svg {
+      font-size: 20px;
+      position: absolute;
+      margin: 15px 555px;
+      cursor: pointer;
+  }
+  .searchBox input{
+     padding: 15px;
+     border-radius: 15px;
+     width: 65%;
+     margin: auto;
+     /* background-color: #15222dd6; */
+     background-color: #1d2c3bd1;
+     color: #fff;
+     border: 0;
+     outline: 0;
+     font-size: 13px;
+  }
+  .searchBox input::placeholder{
+     color: white;
+  } 
+  .container.light .H3 {
+      color:white;
+    }
+    
+    /* Karanlık mod stilini tanımla */
+    .container.dark .H3{
+      color:#15222dc0 ;
+    }
+    .container.dark .movie_poster .poster_p{
+      color:#15222dc0 ;
+    }
+    .container.light .movie_poster .poster_p{
+      color:white;
+    }
